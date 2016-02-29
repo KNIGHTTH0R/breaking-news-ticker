@@ -2,6 +2,9 @@
 
 Breaking News Ticker is a free, flat, stylish, modern, easy to use and flexible wordpress jQuery news ticker. If you have a magazine or blogging site then then it's a highly recommend plugin for your website/blog.
 
+> <strong> [DEMO](http://demo.wpqastle.com/plugins/breaking-news-ticker/) | [Our Support](https://wordpress.org/support/plugin/breaking-news-ticker) </strong> 
+
+
 ## Features of this plugin:
 
 * Custom Post-Type Support.
