@@ -39,3 +39,7 @@ Breaking News Ticker is a free, flat, stylish, modern, easy to use and flexible 
 * [Aqua Resizer](https://github.com/syamilmj/Aqua-Resizer)
 * [Settings API](https://github.com/tareq1988/wordpress-settings-api-class)
 
+
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/iamfahimreza/breaking-news-ticker/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+
