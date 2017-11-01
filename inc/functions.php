@@ -1,4 +1,4 @@
-<?php
+post <?php
 
 function bnt_load_textdomain() {
 	load_plugin_textdomain( 'breaking-news-ticker', false, BNT_PLUGIN_MAIN_PATH . '/languages/' );
@@ -129,11 +129,10 @@ function popup_content() { ?>
 			        	<label for="add_cat">Post Category</label>
 			        	<select id="add_cat" multiple>
   						<option value="" selected="selected">All Category</option>
-							<?php $category_ids = get_all_category_ids();
-								foreach($category_ids as $cat_id) {
-  									$cat_name = get_cat_name($cat_id); ?>
+							<?php $category_ids = get_terms('category');
+								foreach($category_ids as $cat) { ?>
   						
-  						<option value="<?php echo $cat_id; ?>"><?php echo $cat_name; ?></option>
+  						<option value="<?php echo $cat->term_id; ?>"><?php echo $cat->id; ?></option>
 
 						<?php } ?>
 			        	</select>
