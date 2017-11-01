@@ -1,4 +1,4 @@
-post <?php
+<?php
 
 function bnt_load_textdomain() {
 	load_plugin_textdomain( 'breaking-news-ticker', false, BNT_PLUGIN_MAIN_PATH . '/languages/' );
